@@ -1,0 +1,18 @@
+---
+gort_bundle_version: 1
+
+name: testadvancedoutput
+description: "test for advanced output"
+version: 0.1
+image: grebneerg/testadvancedoutput:latest
+
+commands:
+  tao:
+    executable: [ /bundle/testao ]
+    description: Reacts to messages
+    rules:
+      - allow
+    triggers:
+      - match: thumbs up
+    input:
+      advanced: true
