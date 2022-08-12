@@ -4,7 +4,7 @@ gort_bundle_version: 1
 name: incidents
 description: "Convenience commands for automating more of the incident lifecycle."
 version: 0.0.1
-image: incidents:latest
+image: getgort/incidents:0.0.1
 
 commands:
   bookmark:
